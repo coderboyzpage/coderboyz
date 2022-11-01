@@ -1,0 +1,345 @@
+*,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(56, 126, 156);
+}
+/***************HOME.php*****************************/
+
+/*******NAVBAR*******************************/
+
+
+
+
+.body{
+    margin-top: 65px;
+    color: white;
+    scroll-behavior: smooth;
+}
+
+.body span{
+    color: rgb(255, 255, 255);
+}
+
+.body .heading{
+    color: rgb(255, 251, 0);
+}
+
+
+/***********Describe About Page ********************/
+
+.desc{
+    margin-top: 80px;
+    margin: 30px;
+    padding: 50px;
+    border-radius: 50px;
+    background-color: rgb(13, 61, 82);
+    max-height: fit-content;
+    max-width: fit-content;
+    scale: .8;
+    transition: .5s;
+}
+
+
+.contactus{
+  margin-top: 80px;
+  margin: 30px;
+  padding: 50px;
+  border-radius: 50px;
+  background-color: rgb(13, 61, 82);
+  max-height: fit-content;
+  max-width: max-content;
+  scale: 1;
+  transition: .5s;
+}
+
+.desc:hover{
+  scale: .9;
+  box-shadow: 0 0 50px grey;
+}
+
+.desc img{
+    display:table;
+}
+
+.desc h1{
+    font-size: 50px;
+}
+
+.desc h2{
+    font-size: 30px;
+}
+.desc p{
+    font-size: 20px;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; 
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/*******COURSES*******/
+
+.courses{
+    padding: 50px;
+    border-radius: 50px;
+    background-color: rgb(13, 61, 82);
+    max-height: fit-content;
+    max-width: fit-content;
+    margin-bottom: 50px;
+}
+
+
+.courses h1{
+  font-size: 50px;
+  color: yellow;
+  margin: 20px;
+}
+
+/************Card **********/
+
+.card{
+    background-color:rgb(227, 227, 227);
+    width: 300px;
+    display: inline-table;
+    height: 500px;
+    padding: 30px;
+    border-radius: 50px;
+    transition: .5s;
+    scale: .9;
+  }
+  
+  .card:hover{
+    box-shadow: 5px 5px 20px black;
+    scale: 1;
+  }
+  
+  .card img {
+    width: 300px;
+    margin: 0;
+    padding: 0px;
+    border-radius: 50px;
+    transition: .5s;
+    scale: .9;
+  }
+  
+  .card:hover img{
+  box-shadow: 0px 0px 20px black;
+  scale: 1;
+  
+  }
+  .card h2{
+    text-align: center;
+    margin: 0px;
+    color: black;
+  }
+  .card p{
+    text-align: center;  
+    margin: 10px;
+    color: black;
+    font-size: 20px;
+  }
+  .card button{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 50px;
+    padding: 10px;
+  }
+
+.whycode h1{
+  color: yellow;
+  font-size: 50px;
+}
+
+  .column2 {
+    float: left;
+    width: 33.33%;
+  
+  }
+  
+  /* Clear floats after the columns */
+  .row2:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  #aboutus{
+
+    background-color: lightcoral;
+    margin: 20px;
+    display: block;
+    border-radius: 50px;
+    border: 5px solid white;
+  }
+
+  #aboutus img{
+    float: right;
+    margin-right: 150px;
+    display: table-cell;
+    border-radius: 50%;
+  }
+
+  #aboutus h1{
+  font-size: 50px;
+  font-family: pencil;
+}
+
+.aboutustxt{
+  font-size: 20px;
+}
+
+
+
+#contactus img
+{
+  border-radius: 50%;
+   width: 90px;
+   transition: .5s;
+   margin: 20px;
+   line-height: 50px;
+}
+
+#contactus img:hover{
+  scale: 1.1;
+}
+ #whatsapp
+{
+width: 70px;
+}
+#whatsapp:hover{
+  scale: 1.1;
+}
+
+
+.contactus {
+  padding: 80px;
+  color: white;
+  border-radius: 20px;
+
+}
+
+
+.contactus form {
+  text-align: center;
+  font-size: 20px;
+}
+.contactus form span{
+  color: white;
+  display: flexbox;
+  padding: 5px;
+}
+
+
+  .contactus form input{
+    border-radius: 20px;
+    padding: 4px;
+    color: white;
+    background-color:  rgb(0, 42, 59);
+
+  }
+a{
+  text-decoration: none;
+}
+
+.contactus form button{
+  color: white;
+  background-color: green;
+  margin: 15px;
+  padding: 10px;
+  border-radius: 50px;
+  transition: .5s;
+  border: 0;
+}
+
+.contactus form  #reset{
+  color: white;
+  background-color: red;
+}
+
+.contactus form #reset:hover{
+  color: red;
+  background-color: white;
+  
+}
+ 
+ 
+.contactus form button:hover
+{
+  background-color: white;
+  color: green;
+  scale: 1.1;
+  border:1px solid grey;
+
+}
+ 
+ 
+
+/*FOOTER*/
+.footer-index {
+    margin-top: 100px;
+    padding: 40px 0;
+    background-color: #ffffff;
+    color: rgb(226, 43, 116);
+  
+  }
+  
+  .footer-index ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+  }
+  
+  .footer-index li {
+    padding: 0 10px;
+  }
+  
+  .footer-index ul a {
+    color: inherit;
+    text-decoration: none;
+    color: grey;
+    transition: .5s;
+  
+  }
+  
+  .footer-index ul a:hover {
+    color: rgb(255, 255, 255);
+    background-color: black;
+    border-radius: 20px;
+  }
+  
+  
+  .footer-index .copyright-index {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: black;
+    margin-bottom: 10px;
+  
+  }
+  
+
+
+  
+body::-webkit-scrollbar {
+    width: 0px;
+  }
+
+
